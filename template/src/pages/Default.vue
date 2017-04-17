@@ -2,7 +2,7 @@
   <div class="app-page">
     <div class="apui_cell">
       <!-- <a href="#" v-for="(item, idx) in data" v-link="{path:item.url}">{{item.name}}</a> -->
-      <router-link :to="{path:item.url}" v-for="(item, idx) in data" class="apli_cell bdtb btnactive" :key="idx">{{item.name}}<span class="jtr-ico fa"></span></router-link>
+      <router-link :to="{path:item.url}" v-for="(item, idx) in data" class="apli_cell bdtb btnactive" :key="idx">{{item.tit}}<span class="jtr-ico fa"></span></router-link>
     </div>
   </div>
 </template>
@@ -14,10 +14,10 @@ export default {
       store:this.$store.state,
       data: [{
         url:'/customer/setting',
-        name:'个人中心'
+        tit:'个人中心'
       },{
         url:'/myincome/myincome',
-        name:'列表分页加载'
+        tit:'列表分页加载'
       }]
     }
   },

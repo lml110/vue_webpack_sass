@@ -1,4 +1,4 @@
-# {{ vue_name }}
+# {{ name }}
 
 > {{ description }}
 

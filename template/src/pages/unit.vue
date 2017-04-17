@@ -2,7 +2,7 @@
   <div class="app-page">
     <div class="apui_cell">
       <!-- <a href="#" v-for="(item, idx) in data" v-link="{path:item.url}">{{item.name}}</a> -->
-      <router-link :to="{path:item.url}" v-for="(item, idx) in data" class="apli_cell bdtb btnactive" :key="idx">{{item.name}}<span class="jtr-ico fa"></span></router-link>
+      <router-link :to="{path:item.url}" v-for="(item, idx) in data" class="apli_cell bdtb btnactive" :key="idx">\{{item.name}}<span class="jtr-ico fa"></span></router-link>
     </div>
   </div>
 </template>

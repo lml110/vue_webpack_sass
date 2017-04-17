@@ -1,6 +1,6 @@
 {
   "schema": {
-    "vue_name": {
+    "name": {
       "type": "string",
       "required": true,
       "label": "Project name"
