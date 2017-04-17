@@ -1,6 +1,6 @@
-# vue_webpack_sass
+# {{ name }}
 
-> vue_webpack_sass
+> {{ description }}
 
 ## Build Setup
 
