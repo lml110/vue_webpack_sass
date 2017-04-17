@@ -4,7 +4,7 @@
     <div class="list">
       <div class="arrow lis" @click="init">
         <span>请选择日期:</span>
-        <span class="text-right">{{showText}}</span>
+        <span class="text-right">\{{showText}}</span>
       </div>
     </div>
 
@@ -19,7 +19,7 @@
             <div class="dt-mask-top"></div>
             <div class="dt-mask-bottom"></div>
             <ul :class="[{isTransition:isTransition} , 'dt-year']" ref="year">
-              <li class="dt-item" v-for="year in dateArr.year">{{year}}</li>
+              <li class="dt-item" v-for="year in dateArr.year">\{{year}}</li>
             </ul>
           </div>
 
@@ -27,7 +27,7 @@
             <div class="dt-mask-top"></div>
             <div class="dt-mask-bottom"></div>
             <ul :class="[{isTransition:isTransition} , 'dt-month']" ref="month">
-              <li class="dt-item" v-for="month in dateArr.month">{{month}}</li>
+              <li class="dt-item" v-for="month in dateArr.month">\{{month}}</li>
             </ul>
           </div>
 
@@ -35,7 +35,7 @@
             <div class="dt-mask-top"></div>
             <div class="dt-mask-bottom"></div>
             <ul :class="[{isTransition:isTransition} ,'dt-day']" ref="day">
-              <li class="dt-item" v-for="day in dateArr.day">{{day}}</li>
+              <li class="dt-item" v-for="day in dateArr.day">\{{day}}</li>
             </ul>
           </div>
         </div>

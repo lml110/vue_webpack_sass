@@ -4,7 +4,7 @@
     <div class="list">
       <div class="arrow lis" @click="init">
         <span><slot></slot></span>
-        <span :class="['text-right' , {placeholder : placeholder}]">{{showText}}</span>
+        <span :class="['text-right' , {placeholder : placeholder}]" v-text="showText"></span>
       </div>
     </div>
 

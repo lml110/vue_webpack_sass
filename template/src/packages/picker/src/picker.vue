@@ -4,7 +4,7 @@
         <div class="picker-mask-top"></div>
         <div class="picker-mask-bottom"></div>
         <ul :class="[{isTransition:isTransition}]" ref="picker">
-          <li class="picker-item" v-for="item in dataArr">{{item}}</li>
+          <li class="picker-item" v-for="item in dataArr" v-text="item"></li>
         </ul>
       </div>
   </div>

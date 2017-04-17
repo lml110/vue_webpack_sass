@@ -2,11 +2,11 @@
   <div class="app-page">
     <ul class="list">
       <li>
-        <span>{{switchVal}}</span>
+        <span v-text="switchVal"></span>
         <v-switch class="demo-switch" v-on:sChange="getValue" ref="s1"></v-switch>
       </li>
       <li>
-        <span>disable :  {{disabled}}</span>
+        <span>disable :  \{{disabled}}</span>
         <v-switch class="demo-switch" v-on:sChange="getValue" :value="true" :disabled="true"></v-switch>
       </li>
     </ul>
